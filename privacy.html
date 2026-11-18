@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy | Dynameik Solutions</title>
+  <meta name="description" content="How Dynameik Solutions handles information shared through our website and consultation inquiry form.">
+  <style>
+    :root { color-scheme: light; --bg:#fffaf4; --paper:#fff; --ink:#342a2c; --muted:#665b5c; --line:#e6dcd7; --accent:#9b0050; --soft:#f8edf2; }
+    html[data-theme="dark"] { color-scheme: dark; --bg:#17151a; --paper:#29232d; --ink:#f7f0f4; --muted:#cebec9; --line:#4b3d48; --accent:#f098c1; --soft:#241c24; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.75 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; -webkit-font-smoothing:antialiased; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    a:focus-visible, button:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+    .wrap { width:min(790px,calc(100% - 40px)); margin-inline:auto; }
+    .site-header { padding:20px 0; border-bottom:1px solid var(--line); background:var(--paper); }
+    .header-content { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { font-weight:800; font-size:15px; letter-spacing:.012em; color:var(--ink); text-decoration:none; }
+    .nav-tools { display:flex; align-items:center; gap:14px; }
+    .home-link { font-size:13px; text-decoration:none; font-weight:700; }
+    .theme-toggle { display:grid; place-items:center; width:38px; height:38px; flex:none; border:1px solid var(--line); border-radius:50%; background:transparent; color:var(--ink); cursor:pointer; }
+    .theme-toggle svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+    .theme-toggle .sun { display:none; }
+    html[data-theme="dark"] .theme-toggle .sun { display:block; }
+    html[data-theme="dark"] .theme-toggle .moon { display:none; }
+    .intro { padding:64px 0 34px; }
+    .eyebrow { font-size:11px; font-weight:900; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }
+    h1,h2 { letter-spacing:-.025em; }
+    h1 { margin:12px 0 14px; font:600 clamp(35px,5.5vw,53px)/1.15 Georgia,serif; }
+    h2 { margin:0 0 10px; font:600 23px/1.3 Georgia,serif; }
+    .lead { margin:0; max-width:660px; font-size:17px; color:var(--muted); }
+    .updated { display:inline-block; margin-top:20px; padding:6px 12px; background:var(--soft); color:var(--muted); border:1px solid var(--line); border-radius:30px; font-size:12px; }
+    .policy { padding:10px 0 76px; }
+    .policy section { padding:25px 0; border-bottom:1px solid var(--line); }
+    .policy p { margin:0 0 12px; }
+    .policy p:last-child { margin-bottom:0; }
+    .policy ul { padding-left:23px; margin:10px 0 0; }
+    .policy li+li { margin-top:5px; }
+    .callout { background:var(--soft); border-left:3px solid var(--accent); padding:19px 21px; margin:12px 0 0; border-radius:0 8px 8px 0; }
+    .site-footer { padding:24px 0; color:var(--muted); border-top:1px solid var(--line); font-size:12px; }
+    .site-footer .wrap { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 20px; }
+    @media(max-width:520px) { .intro { padding-top:45px; } .header-content { gap:10px; } .nav-tools { gap:9px; } .brand { font-size:13px; } .home-link { font-size:12px; } }
+  </style>
+  <script>
+    (function () {
+      var preferred = null;
+      try { preferred = localStorage.getItem('dynameik-theme'); } catch (error) {}
+      if (preferred !== 'dark' && preferred !== 'light') {
+        preferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', preferred);
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-content">
+      <a class="brand" href="index.html">Dynameik Solutions</a>
+      <nav class="nav-tools" aria-label="Page navigation">
+        <a class="home-link" href="index.html">← Back to home</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme" id="theme-toggle">
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.2A8.6 8.6 0 0 1 8.8 3.5 8.7 8.7 0 1 0 20.5 15.2Z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap intro">
+      <div class="eyebrow">Your information matters</div>
+      <h1>Privacy Policy</h1>
+      <p class="lead">We value the trust you place in Dynameik Solutions. This page explains what information may be collected when you visit our website or contact us, and how we use it.</p>
+      <span class="updated">Effective November 18, 2026</span>
+    </div>
+    <div class="wrap policy">
+      <section>
+        <h2>1. Who we are</h2>
+        <p>Dynameik Solutions provides organizational infrastructure, business strategy, operational improvement, and digital solutions. For questions about this policy or your information, email <a href="mailto:dynameik.solutions@gmail.com">dynameik.solutions@gmail.com</a>.</p>
+      </section>
+      <section>
+        <h2>2. Information you choose to share</h2>
+        <p>If you request an initial consultation using our linked Google Form, we may receive the information you enter, such as your name, contact details, organization, goals, and challenges. The exact fields are shown on the form before you submit it. Google Forms may also collect an email address or sign-in information depending on the form's settings.</p>
+        <p>If you email us directly, we receive the information in your message and the email address you use.</p>
+        <div class="callout">Please do not submit passwords, Social Security numbers, payment card numbers, health records, or other sensitive personal information through the initial consultation form.</div>
+      </section>
+      <section>
+        <h2>3. How we use information</h2>
+        <p>We use information provided through inquiries to respond, discuss your needs, assess whether our services are a good fit, prepare potential next steps or proposals, and maintain appropriate business records. We may also use communications to improve how we serve prospective clients.</p>
+        <p>We do not ask you to provide sensitive details to begin a consultation. We will describe any separate marketing sign-up or communications preferences if we offer them in the future.</p>
+      </section>
+      <section>
+        <h2>4. Website hosting and analytics</h2>
+        <p>Our website is hosted by Netlify. Like other hosting providers, Netlify may process technical information needed to deliver, troubleshoot, and protect the site, such as network requests, IP addresses, and browser or device details.</p>
+        <p>If we enable Netlify Web Analytics, we may review site traffic information such as pageviews, popular pages, and general referral sources. Netlify describes this feature as server-side analytics that does not require analytics cookies. The presence or availability of that feature can change based on the site's Netlify plan and settings.</p>
+        <p>The site also remembers your light- or dark-mode preference in your browser's local storage. That preference stays on your device and is used to display the site in your chosen theme.</p>
+      </section>
+      <section>
+        <h2>5. Service providers and sharing</h2>
+        <p>We use service providers, including Google Forms for consultation inquiries, Google services for business communication and recordkeeping, and Netlify for website hosting. Information may be processed by those providers to deliver their services.</p>
+        <p>We may also disclose information if required by law, to protect our rights or security, or as reasonably necessary to provide a service you request. If an engagement requires sharing your information with another provider or collaborator, we will address the relevant details as part of that engagement.</p>
+        <p>The Google Form operates under Google's own terms and privacy practices. You can review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer">Netlify's Privacy Policy</a>.</p>
+      </section>
+      <section>
+        <h2>6. Retention and security</h2>
+        <p>We retain inquiry information for as long as reasonably needed for business communications, recordkeeping, legal obligations, or an ongoing service relationship. Retention may vary with the type of information and the purpose for which it was provided.</p>
+        <p>We seek to use reasonable safeguards to protect information. However, no internet transmission or storage system can be guaranteed to be completely secure.</p>
+      </section>
+      <section>
+        <h2>7. Your choices and requests</h2>
+        <p>You may choose not to submit the consultation form and instead contact us by email. To ask about information you have shared, request a correction, or ask us to delete inquiry details when appropriate, contact <a href="mailto:dynameik.solutions@gmail.com">dynameik.solutions@gmail.com</a>. Some information may need to be retained for legitimate business or legal reasons.</p>
+        <p>You can change the site's theme with the light/dark toggle and clear the saved preference using your browser's site data controls.</p>
+      </section>
+      <section>
+        <h2>8. Updates to this policy</h2>
+        <p>We may update this policy as our services and website evolve. The effective date above indicates the version currently presented on this page. Material changes to how we handle information will be reflected here.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap"><span>© 2026 Dynameik Solutions. All rights reserved.</span><a href="index.html">Return to the landing page</a></div></footer>
+  <script>
+    (function () {
+      var button = document.getElementById('theme-toggle');
+      function update() {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+        button.setAttribute('aria-pressed', String(dark));
+      }
+      button.addEventListener('click', function () {
+        var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('dynameik-theme', next); } catch (error) {}
+        update();
+      });
+      update();
+    })();
+  </script>
+</body>
+</html>
